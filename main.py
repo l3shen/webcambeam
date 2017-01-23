@@ -13,5 +13,9 @@ if len.sys.argv == 2:
 else:
     print('Usage: python main.py <filename in directory>')
 
+# open the image and place into array
 webcamImg = Image.open(filename)
+webcamArr = np.array(webcamImg)
+
+
 
